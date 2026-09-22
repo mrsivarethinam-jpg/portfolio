@@ -1,0 +1,1621 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Space+Grotesk:wght@500;600;700&amp;family=Syne:wght@600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        "colors": {
+          "primary-fixed": "#ffdead",
+          "on-tertiary-fixed-variant": "#004f54",
+          "inverse-surface": "#e3e2e8",
+          "secondary": "#ffb3ad",
+          "on-secondary-fixed": "#410003",
+          "on-surface-variant": "#d4c4b0",
+          "primary": "#ffc666",
+          "tertiary-fixed-dim": "#00dbe9",
+          "primary-fixed-dim": "#fabc4e",
+          "on-secondary-container": "#ffcdc8",
+          "surface-container-low": "#1a1b20",
+          "surface-tint": "#fabc4e",
+          "secondary-fixed": "#ffdad6",
+          "surface-bright": "#38393e",
+          "tertiary": "#00e5f4",
+          "tertiary-fixed": "#7df4ff",
+          "error": "#ffb4ab",
+          "on-primary-fixed-variant": "#604100",
+          "on-tertiary": "#00363a",
+          "surface-container-highest": "#343439",
+          "tertiary-container": "#00c7d4",
+          "on-error": "#690005",
+          "secondary-fixed-dim": "#ffb3ad",
+          "background": "#121317",
+          "surface": "#121317",
+          "surface-container-lowest": "#0d0e12",
+          "surface-container": "#1f1f24",
+          "surface-variant": "#343439",
+          "on-background": "#e3e2e8",
+          "on-tertiary-fixed": "#002022",
+          "on-secondary": "#680008",
+          "inverse-on-surface": "#2f3035",
+          "outline-variant": "#504536",
+          "secondary-container": "#c00019",
+          "on-primary": "#432c00",
+          "on-primary-container": "#5e4000",
+          "on-primary-fixed": "#281900",
+          "error-container": "#93000a",
+          "on-surface": "#e3e2e8",
+          "primary-container": "#e5a93d",
+          "on-secondary-fixed-variant": "#930010",
+          "inverse-primary": "#7f5700",
+          "outline": "#9d8f7c",
+          "surface-dim": "#121317",
+          "on-error-container": "#ffdad6",
+          "on-tertiary-container": "#004e53",
+          "surface-container-high": "#292a2e"
+        },
+        "borderRadius": {
+          "DEFAULT": "0.125rem",
+          "lg": "0.25rem",
+          "xl": "0.5rem",
+          "full": "0.75rem"
+        },
+        "spacing": {
+          "space-sm": "0.5rem",
+          "gutter-mobile": "1rem",
+          "gutter": "1.5rem",
+          "space-xl": "2.5rem",
+          "space-lg": "1.5rem",
+          "margin-mobile": "1.25rem",
+          "space-md": "1rem",
+          "margin": "3rem",
+          "space-xs": "0.25rem"
+        },
+        "fontFamily": {
+          "label-mono": [
+            "Space Grotesk"
+          ],
+          "label-caps": [
+            "Space Grotesk"
+          ],
+          "headline-lg-mobile": [
+            "Syne"
+          ],
+          "display-xl-mobile": [
+            "Syne"
+          ],
+          "body-sm": [
+            "Inter"
+          ],
+          "body-md": [
+            "Inter"
+          ],
+          "headline-lg": [
+            "Syne"
+          ],
+          "headline-md": [
+            "Syne"
+          ],
+          "body-lg": [
+            "Inter"
+          ],
+          "headline-sm": [
+            "Space Grotesk"
+          ],
+          "display-xl": [
+            "Syne"
+          ]
+        },
+        "fontSize": {
+          "label-mono": [
+            "12px",
+            {
+              "lineHeight": "16px",
+              "letterSpacing": "0.05em",
+              "fontWeight": "500"
+            }
+          ],
+          "label-caps": [
+            "11px",
+            {
+              "lineHeight": "16px",
+              "letterSpacing": "0.12em",
+              "fontWeight": "700"
+            }
+          ],
+          "headline-lg-mobile": [
+            "32px",
+            {
+              "lineHeight": "40px",
+              "letterSpacing": "-0.02em",
+              "fontWeight": "700"
+            }
+          ],
+          "display-xl-mobile": [
+            "40px",
+            {
+              "lineHeight": "48px",
+              "letterSpacing": "-0.03em",
+              "fontWeight": "800"
+            }
+          ],
+          "body-sm": [
+            "13px",
+            {
+              "lineHeight": "20px",
+              "letterSpacing": "0.01em",
+              "fontWeight": "400"
+            }
+          ],
+          "body-md": [
+            "15px",
+            {
+              "lineHeight": "24px",
+              "letterSpacing": "0em",
+              "fontWeight": "400"
+            }
+          ],
+          "headline-lg": [
+            "48px",
+            {
+              "lineHeight": "56px",
+              "letterSpacing": "-0.03em",
+              "fontWeight": "700"
+            }
+          ],
+          "headline-md": [
+            "32px",
+            {
+              "lineHeight": "40px",
+              "letterSpacing": "-0.02em",
+              "fontWeight": "600"
+            }
+          ],
+          "body-lg": [
+            "18px",
+            {
+              "lineHeight": "28px",
+              "letterSpacing": "-0.01em",
+              "fontWeight": "400"
+            }
+          ],
+          "headline-sm": [
+            "22px",
+            {
+              "lineHeight": "28px",
+              "letterSpacing": "-0.01em",
+              "fontWeight": "600"
+            }
+          ],
+          "display-xl": [
+            "72px",
+            {
+              "lineHeight": "80px",
+              "letterSpacing": "-0.04em",
+              "fontWeight": "800"
+            }
+          ]
+        }
+      },
+    },
+  }</script></head><body class="bg-background text-on-surface font-body-md text-body-md antialiased selection:bg-primary selection:text-on-primary"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/85 backdrop-blur-xl shadow-[0_4px_24px_rgba(0,0,0,0.4)]"><div class="h-20 max-w-[1440px] mx-auto px-gutter-mobile lg:px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm"><a class="flex items-center gap-space-sm group" href="#hero"><img alt="Sivarethinam P. Wordmark Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1UUM-gadplztfu5Wz5XDMA5zbsZyJBs3t0qowqKyulAnDEgzGcge0nBrR3CT-8M1-j4FE3ReaPZOQEEeqB5L3yPUqBLJSL2N20-UdoXStmcukMQVLZNbPs8DJDpFYHGrN2Ecu_ifrYQICH7o7mdhD2OwFwQOLSMRdMBDlt3fBuYHpJ20oXWHb5fDlUjmarP8StrtTMDKh6hUeyQnWiDzZVLGIcWbNT5S2748s259Awp"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm tracking-tight text-on-surface group-hover:text-primary transition-colors uppercase">Sivarethinam P.</span><span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-widest">Film &amp; Video Editor</span></div></a></div><nav class="hidden lg:flex items-center gap-space-lg" data-active-classes="text-primary font-bold"><a aria-current="page" class="uppercase transition-colors text-primary font-bold" data-path="home" href="#hero">Home</a><a class="font-label-caps text-label-caps uppercase transition-colors text-on-surface-variant hover:text-on-surface" data-path="about" href="#about">About</a><a class="font-label-caps text-label-caps uppercase transition-colors text-on-surface-variant hover:text-on-surface" data-path="services" href="#services">Services</a><a class="font-label-caps text-label-caps uppercase transition-colors text-on-surface-variant hover:text-on-surface" data-path="work" href="#work">Work</a><a class="font-label-caps text-label-caps uppercase transition-colors text-on-surface-variant hover:text-on-surface" data-path="process" href="#process">Process</a><a class="font-label-caps text-label-caps uppercase transition-colors text-on-surface-variant hover:text-on-surface" data-path="pricing" href="#pricing">Pricing</a><a class="font-label-caps text-label-caps uppercase transition-colors text-on-surface-variant hover:text-on-surface" data-path="contact" href="#contact">Contact</a></nav><div class="flex items-center gap-space-md"><a class="hidden sm:inline-flex items-center justify-center px-space-md py-space-sm rounded-lg font-headline-sm text-label-caps uppercase tracking-wider bg-primary-container text-on-primary hover:bg-primary shadow-[0_0_24px_rgba(229,169,61,0.25)] hover:shadow-[0_0_32px_rgba(229,169,61,0.45)] transition-all duration-300 transform hover:-translate-y-0.5" href="#contact">Let's Work Together</a><button aria-label="Toggle Navigation Menu" class="lg:hidden flex items-center justify-center p-space-xs rounded text-on-surface hover:text-primary hover:bg-surface-container-high transition-colors" id="mobile-menu-toggle"><span class="material-symbols-outlined">menu</span></button><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-1 ring-outline-variant" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDs9xj9xyQ84IaQBX5FCrWz-9OhhkaTeZ8pDppwyGjz6XcISQikDJeq07gujr0NJuE8d2apBYw66gdt10rfw6HP7DW_oy4WjB6Ek3EsJdoi97DiGbRxHYPYsKdSz28W9i0d8jMCuFcJ_eHioWoA-JVgmxeLp_5GUbYtYnhOhinYFmzNfRLKUngH55uURDFgyGUzMah2FXwN6FYOIjFbeDIAYVrn089JteTmd7cpVfM"/></div></div><div class="hidden lg:hidden w-full bg-surface-container-low px-gutter-mobile py-space-lg shadow-[0_12px_32px_rgba(0,0,0,0.6)]" id="mobile-nav-panel"><nav class="flex flex-col gap-space-md"><a class="font-label-caps text-label-caps uppercase text-on-surface-variant hover:text-primary transition-colors py-space-xs" href="#hero">Home</a><a class="font-label-caps text-label-caps uppercase text-on-surface-variant hover:text-primary transition-colors py-space-xs" href="#about">About</a><a class="font-label-caps text-label-caps uppercase text-on-surface-variant hover:text-primary transition-colors py-space-xs" href="#services">Services</a><a class="font-label-caps text-label-caps uppercase text-on-surface-variant hover:text-primary transition-colors py-space-xs" href="#work">Work</a><a class="font-label-caps text-label-caps uppercase text-on-surface-variant hover:text-primary transition-colors py-space-xs" href="#process">Process</a><a class="font-label-caps text-label-caps uppercase text-on-surface-variant hover:text-primary transition-colors py-space-xs" href="#pricing">Pricing</a><a class="font-label-caps text-label-caps uppercase text-on-surface-variant hover:text-primary transition-colors py-space-xs" href="#contact">Contact</a><div class="pt-space-sm"><a class="flex w-full items-center justify-center px-space-md py-space-sm rounded-lg font-headline-sm text-label-caps uppercase tracking-wider bg-primary-container text-on-primary shadow-[0_0_20px_rgba(229,169,61,0.25)]" href="#contact">Let's Work Together</a></div></nav></div></header><main class="w-full pt-20 bg-background min-h-[calc(100vh-20rem)]"><div class="flex flex-col w-full selection:bg-primary selection:text-on-primary">
+<!-- ========================================================================= -->
+<!-- 1. HERO SECTION                                                          -->
+<!-- ========================================================================= -->
+<section class="relative w-full overflow-hidden bg-surface pt-12 pb-24 lg:pt-20 lg:pb-32" id="hero">
+<!-- Ambient Studio Light Blobs -->
+<div class="absolute -top-32 -left-32 w-96 h-96 rounded-full bg-primary/10 blur-[120px] pointer-events-none"></div>
+<div class="absolute top-1/2 -right-48 w-[500px] h-[500px] rounded-full bg-tertiary/10 blur-[150px] pointer-events-none"></div>
+<div class="max-w-[1440px] mx-auto px-gutter-mobile lg:px-margin">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+<!-- Left Content Column -->
+<div class="lg:col-span-7 flex flex-col gap-6 z-10">
+<!-- Timecode & Status Overline -->
+<div class="flex flex-wrap items-center gap-3">
+<span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container-high text-primary font-label-mono text-label-mono tracking-wider uppercase">
+<span class="w-2 h-2 rounded-full bg-error animate-ping"></span>
+              REC 60FPS • TIMELINE ACTIVE
+            </span>
+<span class="font-label-mono text-label-mono text-on-surface-variant tracking-widest hidden sm:inline-block">
+              SMPTE 00:14:28:12
+            </span>
+</div>
+<!-- Massive Headline -->
+<h1 class="font-headline-lg text-headline-lg lg:text-display-xl uppercase tracking-tighter text-on-surface leading-tight">
+            I TURN RAW FOOTAGE INTO CONTENT <span class="text-primary underline decoration-primary/40 underline-offset-8">WORTH WATCHING.</span>
+</h1>
+<!-- Authentic Supporting Bio -->
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
+            I'm <strong class="text-on-surface font-semibold">Sivarethinam P</strong>, a professional video editor with 2+ years of experience creating clean, engaging and professional videos for creators, businesses and brands.
+          </p>
+<!-- Badges Line -->
+<div class="flex flex-wrap items-center gap-2 pt-2">
+<span class="px-3 py-1.5 rounded-lg bg-surface-container text-on-surface font-label-caps text-label-caps uppercase tracking-wider">
+              2+ Years Experience
+            </span>
+<span class="text-outline-variant">•</span>
+<span class="px-3 py-1.5 rounded-lg bg-surface-container text-on-surface font-label-caps text-label-caps uppercase tracking-wider">
+              All-Type Video Editing
+            </span>
+<span class="text-outline-variant">•</span>
+<span class="px-3 py-1.5 rounded-lg bg-surface-container text-primary font-label-caps text-label-caps uppercase tracking-wider">
+              Affordable Pricing
+            </span>
+</div>
+<!-- CTAs -->
+<div class="flex flex-wrap items-center gap-4 pt-4">
+<a class="inline-flex items-center gap-3 px-8 py-4 rounded font-headline-sm text-headline-sm uppercase tracking-wider bg-primary-container text-on-primary hover:bg-primary shadow-[0_0_30px_rgba(229,169,61,0.35)] hover:shadow-[0_0_45px_rgba(229,169,61,0.6)] transition-all duration-300 transform hover:-translate-y-0.5" href="#work">
+<span>View My Work</span>
+<span class="material-symbols-outlined text-xl">play_circle</span>
+</a>
+<a class="inline-flex items-center gap-2 px-8 py-4 rounded font-headline-sm text-headline-sm uppercase tracking-wider bg-surface-container-high text-on-surface hover:bg-surface-bright hover:text-primary transition-all duration-300" href="#contact">
+<span>Let's Work Together</span>
+<span class="material-symbols-outlined text-xl">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Right Suite Preview Canvas -->
+<div class="lg:col-span-5 relative">
+<!-- Monitor Frame with NLE Accents -->
+<div class="relative rounded-xl overflow-hidden bg-surface-container-lowest p-2.5 shadow-[0_24px_64px_rgba(0,0,0,0.8)]">
+<!-- Monitor Header Strip -->
+<div class="flex items-center justify-between px-3 py-2 bg-surface-container text-on-surface-variant font-label-mono text-label-mono rounded-t-lg">
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-error"></span>
+<span class="w-2.5 h-2.5 rounded-full bg-primary"></span>
+<span class="w-2.5 h-2.5 rounded-full bg-tertiary"></span>
+<span class="ml-2 text-on-surface font-semibold tracking-wider">SEQUENCE_01.prproj</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="text-tertiary">4K PRORES 422</span>
+<span class="text-primary font-bold">24.00 fps</span>
+</div>
+</div>
+<!-- Viewport Screen -->
+<div class="relative aspect-square w-full rounded-b-lg overflow-hidden group">
+<img alt="Sivarethinam P. in color grading suite" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDs9xj9xyQ84IaQBX5FCrWz-9OhhkaTeZ8pDppwyGjz6XcISQikDJeq07gujr0NJuE8d2apBYw66gdt10rfw6HP7DW_oy4WjB6Ek3EsJdoi97DiGbRxHYPYsKdSz28W9i0d8jMCuFcJ_eHioWoA-JVgmxeLp_5GUbYtYnhOhinYFmzNfRLKUngH55uURDFgyGUzMah2FXwN6FYOIjFbeDIAYVrn089JteTmd7cpVfM"/>
+<!-- Dark Cinematic Gradient Scrim -->
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-transparent to-surface-container-lowest/40"></div>
+<!-- Viewfinder Reticles -->
+<div class="absolute top-4 left-4 font-label-mono text-label-mono text-primary bg-surface/80 px-2 py-0.5 rounded backdrop-blur-md">
+                LUMETRI COLOR GRADE • REC 709
+              </div>
+<div class="absolute top-4 right-4 flex items-center gap-1.5 bg-surface/80 px-2.5 py-1 rounded backdrop-blur-md">
+<span class="w-2 h-2 rounded-full bg-error animate-pulse"></span>
+<span class="font-label-mono text-label-mono text-on-surface">LIVE PREVIEW</span>
+</div>
+<!-- Floating Center Play Ripple -->
+<div class="absolute inset-0 flex items-center justify-center">
+<a class="relative flex items-center justify-center w-20 h-20 rounded-full bg-surface-container/80 backdrop-blur-xl text-primary shadow-[0_0_35px_rgba(229,169,61,0.5)] group-hover:scale-110 transition-transform" href="#work">
+<span class="absolute inset-0 rounded-full bg-primary/20 animate-ping"></span>
+<span class="material-symbols-outlined text-4xl" style="font-variation-settings: 'FILL' 1;">play_arrow</span>
+</a>
+</div>
+<!-- Floating Badges Layer -->
+<div class="absolute bottom-16 left-4 right-4 flex flex-wrap gap-2">
+<span class="px-2.5 py-1 rounded bg-surface/90 text-on-surface font-label-caps text-label-caps backdrop-blur-md shadow">
+                  DYNAMIC RHYTHM
+                </span>
+<span class="px-2.5 py-1 rounded bg-surface/90 text-tertiary font-label-caps text-label-caps backdrop-blur-md shadow">
+                  SEAMLESS CUTS
+                </span>
+<span class="px-2.5 py-1 rounded bg-surface/90 text-primary font-label-caps text-label-caps backdrop-blur-md shadow">
+                  SOUND MASTERED
+                </span>
+</div>
+<!-- NLE Scrubber Bottom Bar -->
+<div class="absolute bottom-0 left-0 right-0 p-3 bg-surface-container-lowest/90 backdrop-blur-md flex flex-col gap-1.5">
+<div class="w-full bg-surface-variant h-1 rounded-full overflow-hidden">
+<div class="bg-primary h-full w-2/3"></div>
+</div>
+<div class="flex items-center justify-between font-label-mono text-label-mono text-on-surface-variant">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-sm text-primary">play_arrow</span>
+<span class="text-on-surface">00:14:28:12</span>
+<span>/ 00:21:40:00</span>
+</div>
+<!-- Audio VU Meter Bars Inline -->
+<div class="flex items-end gap-0.5 h-3">
+<div class="w-1 bg-tertiary h-2"></div>
+<div class="w-1 bg-tertiary h-3"></div>
+<div class="w-1 bg-primary h-2.5"></div>
+<div class="w-1 bg-primary h-3"></div>
+<div class="w-1 bg-error h-1.5"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================================================= -->
+<!-- 2. QUICK INTRO / STATS BAR                                               -->
+<!-- ========================================================================= -->
+<section class="w-full bg-surface-container-low py-10">
+<div class="max-w-[1440px] mx-auto px-gutter-mobile lg:px-margin">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+<div class="flex flex-col gap-1 p-6 rounded-lg bg-surface-container hover:bg-surface-container-high transition-colors">
+<span class="font-headline-lg text-headline-lg text-primary tracking-tight">2+</span>
+<span class="font-headline-sm text-headline-sm text-on-surface uppercase">Years Experience</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Hands-on editing for diverse digital formats</span>
+</div>
+<div class="flex flex-col gap-1 p-6 rounded-lg bg-surface-container hover:bg-surface-container-high transition-colors">
+<span class="font-headline-lg text-headline-lg text-tertiary tracking-tight">3</span>
+<span class="font-headline-sm text-headline-sm text-on-surface uppercase">Creative Tools</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Premiere Pro, Photoshop &amp; CapCut workflows</span>
+</div>
+<div class="flex flex-col gap-1 p-6 rounded-lg bg-surface-container hover:bg-surface-container-high transition-colors">
+<span class="font-headline-lg text-headline-lg text-primary-fixed-dim tracking-tight">∞</span>
+<span class="font-headline-sm text-headline-sm text-on-surface uppercase">Types of Projects</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Reels, YouTube, Commercials, Events &amp; Custom</span>
+</div>
+<div class="flex flex-col gap-1 p-6 rounded-lg bg-surface-container hover:bg-surface-container-high transition-colors">
+<span class="font-headline-lg text-headline-lg text-secondary tracking-tight">100%</span>
+<span class="font-headline-sm text-headline-sm text-on-surface uppercase">Focus on Vision</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Clean communication and tailor-made cuts</span>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================================================= -->
+<!-- 3. ABOUT SECTION                                                         -->
+<!-- ========================================================================= -->
+<section class="w-full bg-surface py-24 lg:py-32" id="about">
+<div class="max-w-[1440px] mx-auto px-gutter-mobile lg:px-margin">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
+<!-- Authentic Portrait with Technical Viewfinder Frame -->
+<div class="lg:col-span-5 relative">
+<div class="relative mx-auto max-w-md lg:max-w-none rounded-xl overflow-hidden bg-surface-container-lowest p-3 shadow-2xl">
+<!-- Viewfinder Crop Marks -->
+<div class="absolute top-6 left-6 w-6 h-6 border-t-2 border-l-2 border-primary z-20 pointer-events-none"></div>
+<div class="absolute top-6 right-6 w-6 h-6 border-t-2 border-r-2 border-primary z-20 pointer-events-none"></div>
+<div class="absolute bottom-6 left-6 w-6 h-6 border-b-2 border-l-2 border-primary z-20 pointer-events-none"></div>
+<div class="absolute bottom-6 right-6 w-6 h-6 border-b-2 border-r-2 border-primary z-20 pointer-events-none"></div>
+<div class="relative aspect-square rounded-lg overflow-hidden">
+<img alt="Sivarethinam P." class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDs9xj9xyQ84IaQBX5FCrWz-9OhhkaTeZ8pDppwyGjz6XcISQikDJeq07gujr0NJuE8d2apBYw66gdt10rfw6HP7DW_oy4WjB6Ek3EsJdoi97DiGbRxHYPYsKdSz28W9i0d8jMCuFcJ_eHioWoA-JVgmxeLp_5GUbYtYnhOhinYFmzNfRLKUngH55uURDFgyGUzMah2FXwN6FYOIjFbeDIAYVrn089JteTmd7cpVfM"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-transparent to-transparent"></div>
+<!-- Floating Corner Badge -->
+<div class="absolute bottom-4 left-4 right-4 p-4 rounded bg-surface-container/90 backdrop-blur-md flex items-center justify-between">
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface leading-none">Sivarethinam P.</h4>
+<span class="font-label-mono text-label-mono text-primary">Film &amp; Content Video Editor</span>
+</div>
+<span class="material-symbols-outlined text-primary text-3xl">movie_filter</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Bio Story & Software Stack -->
+<div class="lg:col-span-7 flex flex-col gap-6">
+<div class="flex items-center gap-3">
+<span class="w-8 h-[2px] bg-primary"></span>
+<span class="font-label-caps text-label-caps text-primary uppercase tracking-widest">ABOUT ME</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg uppercase tracking-tight text-on-surface">
+            Hi, I'm Sivarethinam.
+          </h2>
+<div class="flex flex-col gap-4 font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+<p>
+              I'm a video editor who enjoys turning simple footage into something people actually want to watch.
+            </p>
+<p>
+              With 2 years of hands-on experience, I've worked with different styles of content and understand that good editing is more than just cutting clips together.
+            </p>
+<p class="text-on-surface">
+              It's about choosing the right moments, keeping the flow natural, creating the right mood, and making sure the final video communicates what you want to say.
+            </p>
+<p>
+              I work with Adobe Premiere Pro, Photoshop and CapCut to create professional edits while keeping the process simple and affordable for my clients.
+            </p>
+<p class="font-semibold text-primary">
+              Whether you're a creator, business owner, brand, or someone with a project in mind — if you have the footage, I can help turn it into something better.
+            </p>
+</div>
+<!-- Software Stack Showcase -->
+<div class="pt-6">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider block mb-4">Core Production Stack</span>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+<div class="p-4 rounded-lg bg-surface-container flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm text-primary">Pr</span>
+<span class="material-symbols-outlined text-on-surface-variant text-sm">precision_manufacturing</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-on-surface">Premiere Pro</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Core timeline, multi-cam, sound design &amp; Lumetri grade</span>
+</div>
+<div class="p-4 rounded-lg bg-surface-container flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm text-tertiary">Ps</span>
+<span class="material-symbols-outlined text-on-surface-variant text-sm">photo_size_select_actual</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-on-surface">Photoshop</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Graphics, YouTube thumbnails, mask cuts &amp; assets</span>
+</div>
+<div class="p-4 rounded-lg bg-surface-container flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm text-secondary">Cc</span>
+<span class="material-symbols-outlined text-on-surface-variant text-sm">speed</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-on-surface">CapCut</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Snappy viral hooks, mobile subtitles &amp; trending audio</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================================================= -->
+<!-- 4. SERVICES SECTION                                                      -->
+<!-- ========================================================================= -->
+<section class="w-full bg-surface-container-low py-24 lg:py-32" id="services">
+<div class="max-w-[1440px] mx-auto px-gutter-mobile lg:px-margin">
+<!-- Section Header -->
+<div class="flex flex-col gap-4 max-w-3xl mb-16">
+<div class="flex items-center gap-3">
+<span class="w-8 h-[2px] bg-primary"></span>
+<span class="font-label-caps text-label-caps text-primary uppercase tracking-widest">WHAT I DO</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg uppercase tracking-tight text-on-surface">
+          One Editor. Different Types of Content.
+        </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+          Whatever you're creating, I'll help turn your footage into a polished final video.
+        </p>
+</div>
+<!-- 6 Service Cards Bento Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Card 01 -->
+<div class="group p-8 rounded-xl bg-surface-container hover:bg-surface-container-high transition-all duration-300 flex flex-col justify-between">
+<div class="flex flex-col gap-4">
+<div class="flex items-center justify-between">
+<span class="font-label-mono text-label-mono text-primary font-bold">01 / SHORT-FORM</span>
+<span class="material-symbols-outlined text-3xl text-on-surface-variant group-hover:text-primary transition-colors">smartphone</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface group-hover:text-primary transition-colors">
+              Social Media Videos
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Reels, Shorts, Instagram content and other short-form videos designed to keep viewers watching with instant hooks and fluid pacing.
+            </p>
+</div>
+<div class="pt-6 flex items-center gap-2">
+<span class="px-2.5 py-1 rounded bg-surface-container-lowest text-on-surface-variant font-label-caps text-label-caps">9:16 VERTICAL</span>
+<span class="px-2.5 py-1 rounded bg-surface-container-lowest text-primary font-label-caps text-label-caps">FAST RETENTION</span>
+</div>
+</div>
+<!-- Card 02 -->
+<div class="group p-8 rounded-xl bg-surface-container hover:bg-surface-container-high transition-all duration-300 flex flex-col justify-between">
+<div class="flex flex-col gap-4">
+<div class="flex items-center justify-between">
+<span class="font-label-mono text-label-mono text-tertiary font-bold">02 / LONG-FORM</span>
+<span class="material-symbols-outlined text-3xl text-on-surface-variant group-hover:text-tertiary transition-colors">smart_display</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface group-hover:text-tertiary transition-colors">
+              YouTube Videos
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Clean and engaging long-form edits with proper pacing, cuts, transitions, text, music, and compelling storytelling that maximizes watch time.
+            </p>
+</div>
+<div class="pt-6 flex items-center gap-2">
+<span class="px-2.5 py-1 rounded bg-surface-container-lowest text-on-surface-variant font-label-caps text-label-caps">16:9 WIDESCREEN</span>
+<span class="px-2.5 py-1 rounded bg-surface-container-lowest text-tertiary font-label-caps text-label-caps">STORY FLOW</span>
+</div>
+</div>
+<!-- Card 03 -->
+<div class="group p-8 rounded-xl bg-surface-container hover:bg-surface-container-high transition-all duration-300 flex flex-col justify-between">
+<div class="flex flex-col gap-4">
+<div class="flex items-center justify-between">
+<span class="font-label-mono text-label-mono text-secondary font-bold">03 / ADS &amp; OFFERS</span>
+<span class="material-symbols-outlined text-3xl text-on-surface-variant group-hover:text-secondary transition-colors">campaign</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface group-hover:text-secondary transition-colors">
+              Promotional Videos
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Professional edits for businesses, products, services, offers and promotions crafted to convert curiosity into measurable customer actions.
+            </p>
+</div>
+<div class="pt-6 flex items-center gap-2">
+<span class="px-2.5 py-1 rounded bg-surface-container-lowest text-on-surface-variant font-label-caps text-label-caps">HIGH CONVERSION</span>
+<span class="px-2.5 py-1 rounded bg-surface-container-lowest text-secondary font-label-caps text-label-caps">CALL TO ACTION</span>
+</div>
+</div>
+<!-- Card 04 -->
+<div class="group p-8 rounded-xl bg-surface-container hover:bg-surface-container-high transition-all duration-300 flex flex-col justify-between">
+<div class="flex flex-col gap-4">
+<div class="flex items-center justify-between">
+<span class="font-label-mono text-label-mono text-primary font-bold">04 / CORPORATE</span>
+<span class="material-symbols-outlined text-3xl text-on-surface-variant group-hover:text-primary transition-colors">domain</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface group-hover:text-primary transition-colors">
+              Brand &amp; Business Videos
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Content that presents your business professionally and keeps your brand image consistent, trustworthy, and visually distinguished.
+            </p>
+</div>
+<div class="pt-6 flex items-center gap-2">
+<span class="px-2.5 py-1 rounded bg-surface-container-lowest text-on-surface-variant font-label-caps text-label-caps">BRAND IDENTITY</span>
+<span class="px-2.5 py-1 rounded bg-surface-container-lowest text-primary font-label-caps text-label-caps">CLEAN PALETTE</span>
+</div>
+</div>
+<!-- Card 05 -->
+<div class="group p-8 rounded-xl bg-surface-container hover:bg-surface-container-high transition-all duration-300 flex flex-col justify-between">
+<div class="flex flex-col gap-4">
+<div class="flex items-center justify-between">
+<span class="font-label-mono text-label-mono text-tertiary font-bold">05 / MEMORIES</span>
+<span class="material-symbols-outlined text-3xl text-on-surface-variant group-hover:text-tertiary transition-colors">celebration</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface group-hover:text-tertiary transition-colors">
+              Event &amp; Special Videos
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              From events to personal milestones, I can turn your raw mobile or camera footage into a polished and emotional keepsake.
+            </p>
+</div>
+<div class="pt-6 flex items-center gap-2">
+<span class="px-2.5 py-1 rounded bg-surface-container-lowest text-on-surface-variant font-label-caps text-label-caps">CINEMATIC HIGHLIGHT</span>
+<span class="px-2.5 py-1 rounded bg-surface-container-lowest text-tertiary font-label-caps text-label-caps">EMOTIONAL FLOW</span>
+</div>
+</div>
+<!-- Card 06 -->
+<div class="group p-8 rounded-xl bg-surface-container hover:bg-surface-container-high transition-all duration-300 flex flex-col justify-between">
+<div class="flex flex-col gap-4">
+<div class="flex items-center justify-between">
+<span class="font-label-mono text-label-mono text-primary-fixed font-bold">06 / BESPOKE</span>
+<span class="material-symbols-outlined text-3xl text-on-surface-variant group-hover:text-primary-fixed transition-colors">tune</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface group-hover:text-primary-fixed transition-colors">
+              Custom Video Editing
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Have a unique or different type of project? Tell me what you need, share your visual references, and I'll tailor the workflow around your needs.
+            </p>
+</div>
+<div class="pt-6 flex items-center gap-2">
+<span class="px-2.5 py-1 rounded bg-surface-container-lowest text-on-surface-variant font-label-caps text-label-caps">TAILORED SPECS</span>
+<span class="px-2.5 py-1 rounded bg-surface-container-lowest text-primary-fixed font-label-caps text-label-caps">FLEXIBLE</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================================================= -->
+<!-- 5. FEATURED WORK / PORTFOLIO                                             -->
+<!-- ========================================================================= -->
+<section class="w-full bg-surface py-24 lg:py-32" id="work">
+<div class="max-w-[1440px] mx-auto px-gutter-mobile lg:px-margin">
+<!-- Section Header with Category Tabs -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-8 mb-12">
+<div class="flex flex-col gap-4 max-w-2xl">
+<div class="flex items-center gap-3">
+<span class="w-8 h-[2px] bg-primary"></span>
+<span class="font-label-caps text-label-caps text-primary uppercase tracking-widest">SELECTED WORK</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg uppercase tracking-tight text-on-surface">
+            A Few Things I've Edited.
+          </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+            Different projects. Different styles. Same attention to detail.
+          </p>
+</div>
+<!-- Filter Tab Buttons -->
+<div class="flex flex-wrap items-center gap-2 bg-surface-container p-1.5 rounded-lg">
+<button class="portfolio-filter-btn px-4 py-2 rounded font-label-caps text-label-caps uppercase transition-colors bg-primary text-on-primary font-bold" data-filter="all">
+            All
+          </button>
+<button class="portfolio-filter-btn px-4 py-2 rounded font-label-caps text-label-caps uppercase transition-colors text-on-surface-variant hover:text-on-surface" data-filter="reels">
+            Reels
+          </button>
+<button class="portfolio-filter-btn px-4 py-2 rounded font-label-caps text-label-caps uppercase transition-colors text-on-surface-variant hover:text-on-surface" data-filter="youtube">
+            YouTube
+          </button>
+<button class="portfolio-filter-btn px-4 py-2 rounded font-label-caps text-label-caps uppercase transition-colors text-on-surface-variant hover:text-on-surface" data-filter="ads">
+            Ads
+          </button>
+<button class="portfolio-filter-btn px-4 py-2 rounded font-label-caps text-label-caps uppercase transition-colors text-on-surface-variant hover:text-on-surface" data-filter="promotional">
+            Promotional
+          </button>
+<button class="portfolio-filter-btn px-4 py-2 rounded font-label-caps text-label-caps uppercase transition-colors text-on-surface-variant hover:text-on-surface" data-filter="other">
+            Other
+          </button>
+</div>
+</div>
+<!-- Portfolio Video Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="portfolio-grid">
+<!-- Project 1: Reels -->
+<div class="portfolio-card flex flex-col rounded-xl overflow-hidden bg-surface-container group transition-transform duration-300 hover:-translate-y-1" data-category="reels">
+<div class="relative aspect-video w-full overflow-hidden bg-surface-container-lowest">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="High energy athletic fitness influencer lifting weights in dramatic dark moody gym with volumetric warm rim lighting, cinematic vertical reel capture aesthetic, razor sharp motion freeze" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDThsVocr1AXCQCX53OQVsp5nh_iR5VUWAUxrFFCGYetEqNKjoKct0h5imlOXyJS7RJXh1CdVYC3gBSfusncukwXm565eOFlfB70KzkSXh-37BuCsVfCcqZ3eaSGBxyr-ceKO7HvG-VBihfFl-i_rjDyDFnLoGf34Z3Z59JGLMh4iGd23vvhp6h_DQRwKEMgiuLHGyhp4dUuXG4at2-o-d9xKdiZWuOrWk4fbEGMAU"/>
+<div class="absolute inset-0 bg-surface-container-lowest/30 group-hover:bg-transparent transition-colors"></div>
+<span class="absolute top-3 right-3 font-label-mono text-label-mono px-2 py-0.5 rounded bg-surface-container-lowest/80 text-on-surface backdrop-blur-md">0:58</span>
+<span class="absolute top-3 left-3 font-label-caps text-label-caps px-2 py-0.5 rounded bg-primary text-on-primary">REELS</span>
+<div class="absolute inset-0 flex items-center justify-center opacity-80 group-hover:opacity-100 transition-opacity">
+<div class="w-14 h-14 rounded-full bg-surface-container-low/80 backdrop-blur-md text-primary flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-3xl" style="font-variation-settings: 'FILL' 1;">play_arrow</span>
+</div>
+</div>
+</div>
+<div class="p-6 flex flex-col gap-2">
+<span class="font-label-mono text-label-mono text-primary">SHORT-FORM CONTENT</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">
+              Social Media Reel — Viral Fitness Journey
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+              Fast-paced synchronization with impactful beat drops, animated kinetic captions, and micro sound effects.
+            </p>
+</div>
+</div>
+<!-- Project 2: Ads -->
+<div class="portfolio-card flex flex-col rounded-xl overflow-hidden bg-surface-container group transition-transform duration-300 hover:-translate-y-1" data-category="ads">
+<div class="relative aspect-video w-full overflow-hidden bg-surface-container-lowest">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Macro cinematic shot of luxury automatic chronograph watch with gold accents and mechanical dials ticking in an atmospheric dark moody commercial studio, soft tungsten glow" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAZhKO6cziURZeP01yYIJCf_ykfG_LZxr3VuY0OXbblXPNVL78Mdg0i8JMaBuAMHP9huQcKCKQgbzTFQOpc-Nz73Il9VW-cj_5ePWCHnzQMlfh8r3_AlSzo-aNJJREMWQX9PKpjRHCGnmEXMQYYVLYYNmhVF3xkugJG1r5Utm51lotuNLLaqM4drrhKkJgxEtd2-Or2sMVYcnjILEjjVBMWNPWcu0TrXDfMFxP3CpQ"/>
+<div class="absolute inset-0 bg-surface-container-lowest/30 group-hover:bg-transparent transition-colors"></div>
+<span class="absolute top-3 right-3 font-label-mono text-label-mono px-2 py-0.5 rounded bg-surface-container-lowest/80 text-on-surface backdrop-blur-md">0:30</span>
+<span class="absolute top-3 left-3 font-label-caps text-label-caps px-2 py-0.5 rounded bg-secondary-container text-on-secondary-container">ADS</span>
+<div class="absolute inset-0 flex items-center justify-center opacity-80 group-hover:opacity-100 transition-opacity">
+<div class="w-14 h-14 rounded-full bg-surface-container-low/80 backdrop-blur-md text-primary flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-3xl" style="font-variation-settings: 'FILL' 1;">play_arrow</span>
+</div>
+</div>
+</div>
+<div class="p-6 flex flex-col gap-2">
+<span class="font-label-mono text-label-mono text-secondary">COMMERCIAL CAMPAIGN</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">
+              Brand Promotion — Luxe Minimalist Timepieces
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+              Sophisticated pacing, filmic speed ramping, subtle light sweeps, and luxury brand grading.
+            </p>
+</div>
+</div>
+<!-- Project 3: YouTube -->
+<div class="portfolio-card flex flex-col rounded-xl overflow-hidden bg-surface-container group transition-transform duration-300 hover:-translate-y-1" data-category="youtube">
+<div class="relative aspect-video w-full overflow-hidden bg-surface-container-lowest">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Cinematic night street in Shibuya Tokyo with glowing neon signs reflections on wet asphalt, traveler walking through crowd, colorful cinematic anamorphic look" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDHmIDtgA9X_anm-gNouoBAFeuQnHSByGc9K6WR0x58HF8mwbPUe6he5Kg7BoC9egZiLdoe_PSHlp5-h6Sp2zhg_v6yBIxe_r7nGk4Cy5l3Z6YboorAsCCt31mjHJFo_WhQWHJtCb-6fQK7qZKAxv9Xr86b3SDBUc_xJiMVmOft1_iarDp2jcH1YJJ_hRPAR3q_hCmojXgJRZtTq_5kTPOCbrOqnrSYTVW3G4ekx7M"/>
+<div class="absolute inset-0 bg-surface-container-lowest/30 group-hover:bg-transparent transition-colors"></div>
+<span class="absolute top-3 right-3 font-label-mono text-label-mono px-2 py-0.5 rounded bg-surface-container-lowest/80 text-on-surface backdrop-blur-md">12:40</span>
+<span class="absolute top-3 left-3 font-label-caps text-label-caps px-2 py-0.5 rounded bg-tertiary-container text-on-tertiary">YOUTUBE</span>
+<div class="absolute inset-0 flex items-center justify-center opacity-80 group-hover:opacity-100 transition-opacity">
+<div class="w-14 h-14 rounded-full bg-surface-container-low/80 backdrop-blur-md text-primary flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-3xl" style="font-variation-settings: 'FILL' 1;">play_arrow</span>
+</div>
+</div>
+</div>
+<div class="p-6 flex flex-col gap-2">
+<span class="font-label-mono text-label-mono text-tertiary">LONG-FORM STORYTELLING</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">
+              YouTube Edit — High-Paced Travel Vlog in Tokyo
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+              Dynamic multi-camera timeline, seamless sound design, chapter transitions, and color corrected footage.
+            </p>
+</div>
+</div>
+<!-- Project 4: Ads -->
+<div class="portfolio-card flex flex-col rounded-xl overflow-hidden bg-surface-container group transition-transform duration-300 hover:-translate-y-1" data-category="ads">
+<div class="relative aspect-video w-full overflow-hidden bg-surface-container-lowest">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Sleek matte black noise cancelling premium headphones suspended in dark studio with cyan and warm amber accent rim lights and water splash particles" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBVvpMFe5sX0D4xUibFxGzld8q9OFabR_b1IELpPinOFETvWgMoUH4b8zQbPdUksUwkJ9LUGqcvuCsvUB5au2j3EPJ6weH94Q7B2wVnJpaQsFYfEItUvj7D8CCqNevURkKQ2837TC7nSReolco4KGBwz-vTspKIL7c5EnWeVR6-pC-mBBy7R6YkVnuld8ZjMVTFCZMH9pNMmvEy7mpjJEpGOprExCwu8McxNw_9_qI"/>
+<div class="absolute inset-0 bg-surface-container-lowest/30 group-hover:bg-transparent transition-colors"></div>
+<span class="absolute top-3 right-3 font-label-mono text-label-mono px-2 py-0.5 rounded bg-surface-container-lowest/80 text-on-surface backdrop-blur-md">0:45</span>
+<span class="absolute top-3 left-3 font-label-caps text-label-caps px-2 py-0.5 rounded bg-secondary-container text-on-secondary-container">ADS</span>
+<div class="absolute inset-0 flex items-center justify-center opacity-80 group-hover:opacity-100 transition-opacity">
+<div class="w-14 h-14 rounded-full bg-surface-container-low/80 backdrop-blur-md text-primary flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-3xl" style="font-variation-settings: 'FILL' 1;">play_arrow</span>
+</div>
+</div>
+</div>
+<div class="p-6 flex flex-col gap-2">
+<span class="font-label-mono text-label-mono text-secondary">PRODUCT COMMERCIAL</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">
+              Product Video — SoundWave ANC Headphones
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+              High-impact bass drops, 3D motion callouts, rhythmic cutting, and high contrast electronic showcase.
+            </p>
+</div>
+</div>
+<!-- Project 5: Promotional -->
+<div class="portfolio-card flex flex-col rounded-xl overflow-hidden bg-surface-container group transition-transform duration-300 hover:-translate-y-1" data-category="promotional">
+<div class="relative aspect-video w-full overflow-hidden bg-surface-container-lowest">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Model in contemporary oversized designer streetwear jacket walking confidently down a moody urban alley with warm neon signs in background, film grain texture" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAgsr8qAbuq1SqoZ4UqvwbtG74tq1NWAfw7LSLI9eRzy8kG19Q09HMAkhIPVfZVwmBkPezlWE9VrQAygXLr7GH2EZLstH-vmiE5_AScX_dGY653Lrkmmop5Fs0SDNxKIidbeZuZCivPxK8bLhRi7yoMhyYqTTEcfr9hBatNWXPPJUvf-eFCkDOa27F0GUA7K2RxJP10wRI6_UA1Gui-aawmG21KPfOGhIe61a-Pgm0"/>
+<div class="absolute inset-0 bg-surface-container-lowest/30 group-hover:bg-transparent transition-colors"></div>
+<span class="absolute top-3 right-3 font-label-mono text-label-mono px-2 py-0.5 rounded bg-surface-container-lowest/80 text-on-surface backdrop-blur-md">1:15</span>
+<span class="absolute top-3 left-3 font-label-caps text-label-caps px-2 py-0.5 rounded bg-primary-fixed-dim text-on-primary-fixed">PROMOTIONAL</span>
+<div class="absolute inset-0 flex items-center justify-center opacity-80 group-hover:opacity-100 transition-opacity">
+<div class="w-14 h-14 rounded-full bg-surface-container-low/80 backdrop-blur-md text-primary flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-3xl" style="font-variation-settings: 'FILL' 1;">play_arrow</span>
+</div>
+</div>
+</div>
+<div class="p-6 flex flex-col gap-2">
+<span class="font-label-mono text-label-mono text-primary-fixed-dim">FASHION EDIT</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">
+              Urban Streetwear Fashion Film
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+              Vintage film halation, tactile VHS cuts, atmospheric music design, and sharp cadence.
+            </p>
+</div>
+</div>
+<!-- Project 6: Other -->
+<div class="portfolio-card flex flex-col rounded-xl overflow-hidden bg-surface-container group transition-transform duration-300 hover:-translate-y-1" data-category="other">
+<div class="relative aspect-video w-full overflow-hidden bg-surface-container-lowest">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Close up of steaming dark espresso pouring slowly into glass cup beside roasted coffee beans with warm studio lighting and soft focus dark cafe background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDd7-y-o40KDFZS6CMGFWrwdJveEUlJXp18VhD59xKzi_ksTiFM6VX4e_UJq7qiQ1MuW-X16g0LDV74DlJVxR5m0bWeZHobF2Aeuglbr5_X0ysCLsaABCKXeM5Un_qhEs7R2zLc6dlJymdX1n6_tdnZRsWihq-XvdLOx9BWfHdUT3mtfAdbNE-1gCK3_g9NbSi6dO555RLUDBd-lZr0aPcBzaP2pKHWJFYLuGzjMDs"/>
+<div class="absolute inset-0 bg-surface-container-lowest/30 group-hover:bg-transparent transition-colors"></div>
+<span class="absolute top-3 right-3 font-label-mono text-label-mono px-2 py-0.5 rounded bg-surface-container-lowest/80 text-on-surface backdrop-blur-md">3:10</span>
+<span class="absolute top-3 left-3 font-label-caps text-label-caps px-2 py-0.5 rounded bg-surface-bright text-on-surface">OTHER</span>
+<div class="absolute inset-0 flex items-center justify-center opacity-80 group-hover:opacity-100 transition-opacity">
+<div class="w-14 h-14 rounded-full bg-surface-container-low/80 backdrop-blur-md text-primary flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-3xl" style="font-variation-settings: 'FILL' 1;">play_arrow</span>
+</div>
+</div>
+</div>
+<div class="p-6 flex flex-col gap-2">
+<span class="font-label-mono text-label-mono text-on-surface-variant">MINI-DOC</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">
+              Documentary Style — Artisan Coffee Roasters
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+              ASMR sound enhancements, rich warm grading, interviews smoothly cut with B-roll coverage.
+            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================================================= -->
+<!-- 6. EDITING PHILOSOPHY                                                    -->
+<!-- ========================================================================= -->
+<section class="w-full bg-surface-container-lowest py-24 lg:py-32 overflow-hidden relative">
+<div class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(229,169,61,0.08)_0,transparent_70%)]"></div>
+<div class="max-w-[1440px] mx-auto px-gutter-mobile lg:px-margin relative z-10 flex flex-col items-center text-center">
+<div class="flex items-center gap-3 mb-4">
+<span class="w-8 h-[2px] bg-primary"></span>
+<span class="font-label-caps text-label-caps text-primary uppercase tracking-widest">THE PHILOSOPHY</span>
+<span class="w-8 h-[2px] bg-primary"></span>
+</div>
+<h2 class="font-headline-lg text-headline-lg lg:text-display-xl uppercase tracking-tighter text-on-surface max-w-4xl">
+        EDITING ISN'T JUST CUTTING CLIPS.
+      </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mt-6">
+        Anyone can put clips together. Good editing is knowing what to keep, what to remove, when to cut, what music fits, and how the entire video should feel.
+      </p>
+<!-- Four Kinetic Typographic Words -->
+<div class="grid grid-cols-2 lg:grid-cols-4 gap-6 w-full max-w-5xl mt-16">
+<div class="p-8 rounded-xl bg-surface-container-low flex flex-col items-center justify-center gap-2 hover:bg-surface-container transition-colors">
+<span class="font-display-xl-mobile lg:font-display-xl text-primary font-bold tracking-tight">PACING</span>
+<span class="font-label-mono text-label-mono text-on-surface-variant uppercase">Rhythm &amp; Timing</span>
+</div>
+<div class="p-8 rounded-xl bg-surface-container-low flex flex-col items-center justify-center gap-2 hover:bg-surface-container transition-colors">
+<span class="font-display-xl-mobile lg:font-display-xl text-on-surface font-bold tracking-tight">STORY</span>
+<span class="font-label-mono text-label-mono text-on-surface-variant uppercase">Clear Narrative Arc</span>
+</div>
+<div class="p-8 rounded-xl bg-surface-container-low flex flex-col items-center justify-center gap-2 hover:bg-surface-container transition-colors">
+<span class="font-display-xl-mobile lg:font-display-xl text-tertiary font-bold tracking-tight">DETAIL</span>
+<span class="font-label-mono text-label-mono text-on-surface-variant uppercase">Audio &amp; Frame Polish</span>
+</div>
+<div class="p-8 rounded-xl bg-surface-container-low flex flex-col items-center justify-center gap-2 hover:bg-surface-container transition-colors">
+<span class="font-display-xl-mobile lg:font-display-xl text-secondary font-bold tracking-tight">FEEL</span>
+<span class="font-label-mono text-label-mono text-on-surface-variant uppercase">Emotional Impact</span>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================================================= -->
+<!-- 7. WHY WORK WITH ME                                                      -->
+<!-- ========================================================================= -->
+<section class="w-full bg-surface py-24 lg:py-32">
+<div class="max-w-[1440px] mx-auto px-gutter-mobile lg:px-margin">
+<div class="flex flex-col gap-4 max-w-3xl mb-16">
+<div class="flex items-center gap-3">
+<span class="w-8 h-[2px] bg-primary"></span>
+<span class="font-label-caps text-label-caps text-primary uppercase tracking-widest">WHY ME</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg uppercase tracking-tight text-on-surface">
+          Professional Work. Without the Premium Price Tag.
+        </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+          You don't always need a huge production budget to get a professional-looking video. I focus on giving you a clean, well-edited final video while keeping my pricing affordable.
+        </p>
+</div>
+<!-- 5 Feature Blocks Asymmetric Layout -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<div class="p-8 rounded-xl bg-surface-container-low flex flex-col gap-4">
+<div class="w-12 h-12 rounded-lg bg-primary/10 text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-2xl">movie_edit</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">1. Professional Editing</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Clean cuts, smooth pacing and strict attention to detail in every timeline frame.
+          </p>
+</div>
+<div class="p-8 rounded-xl bg-surface-container-low flex flex-col gap-4">
+<div class="w-12 h-12 rounded-lg bg-tertiary/10 text-tertiary flex items-center justify-center">
+<span class="material-symbols-outlined text-2xl">lightbulb</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">2. Creative Thinking</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            I don't just follow instructions — when I see an opportunity to improve the edit, I'll proactively suggest it.
+          </p>
+</div>
+<div class="p-8 rounded-xl bg-surface-container-low flex flex-col gap-4">
+<div class="w-12 h-12 rounded-lg bg-secondary/10 text-secondary flex items-center justify-center">
+<span class="material-symbols-outlined text-2xl">payments</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">3. Affordable Pricing</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Professional editing that fits creators, small businesses and growing personal brands without hidden costs.
+          </p>
+</div>
+<div class="p-8 rounded-xl bg-surface-container-low flex flex-col gap-4">
+<div class="w-12 h-12 rounded-lg bg-primary-fixed/10 text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-2xl">chat</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">4. Clear Communication</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            You'll know what's happening with your project without jargon or unnecessary complications.
+          </p>
+</div>
+<div class="p-8 rounded-xl bg-surface-container-low flex flex-col gap-4 md:col-span-2 lg:col-span-2">
+<div class="w-12 h-12 rounded-lg bg-primary-container/20 text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-2xl">schedule</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">5. On-Time Delivery</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            I respect your time and marketing schedule. Projects are delivered within the agreed timeline with prompt turnaround on feedback loops.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================================================= -->
+<!-- 8. TOOLS SECTION                                                         -->
+<!-- ========================================================================= -->
+<section class="w-full bg-surface-container-low py-16">
+<div class="max-w-[1440px] mx-auto px-gutter-mobile lg:px-margin">
+<div class="flex flex-col gap-2 mb-10 text-center items-center">
+<span class="font-label-caps text-label-caps text-primary uppercase tracking-widest">PRODUCTION RIG</span>
+<h3 class="font-headline-md text-headline-md uppercase text-on-surface">The Tools Behind My Edits</h3>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Tool 1 -->
+<div class="p-6 rounded-xl bg-surface-container flex items-start gap-4">
+<div class="w-14 h-14 rounded-lg bg-[#9999FF]/10 text-primary flex-shrink-0 flex items-center justify-center font-bold text-2xl">
+            Pr
+          </div>
+<div class="flex flex-col gap-1">
+<h4 class="font-headline-sm text-headline-sm text-on-surface">ADOBE PREMIERE PRO</h4>
+<span class="font-label-mono text-label-mono text-primary">Primary Video Editing</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Timeline editing, multi-camera sequencing, sync, audio balance &amp; Lumetri color grading.
+            </p>
+</div>
+</div>
+<!-- Tool 2 -->
+<div class="p-6 rounded-xl bg-surface-container flex items-start gap-4">
+<div class="w-14 h-14 rounded-lg bg-[#001E36] text-tertiary flex-shrink-0 flex items-center justify-center font-bold text-2xl">
+            Ps
+          </div>
+<div class="flex flex-col gap-1">
+<h4 class="font-headline-sm text-headline-sm text-on-surface">ADOBE PHOTOSHOP</h4>
+<span class="font-label-mono text-label-mono text-tertiary">Graphics &amp; Visual Assets</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              High-CTR thumbnails, custom title cards, screen cutouts, masks and visual overlays.
+            </p>
+</div>
+</div>
+<!-- Tool 3 -->
+<div class="p-6 rounded-xl bg-surface-container flex items-start gap-4">
+<div class="w-14 h-14 rounded-lg bg-surface-container-high text-secondary flex-shrink-0 flex items-center justify-center font-bold text-2xl">
+            Cc
+          </div>
+<div class="flex flex-col gap-1">
+<h4 class="font-headline-sm text-headline-sm text-on-surface">CAPCUT PRO</h4>
+<span class="font-label-mono text-label-mono text-secondary">Short-Form &amp; Social Content</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Trending cuts, fast audio sync, auto kinetic subtitles, and mobile platform optimizations.
+            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================================================= -->
+<!-- 9. PROCESS SECTION                                                       -->
+<!-- ========================================================================= -->
+<section class="w-full bg-surface py-24 lg:py-32" id="process">
+<div class="max-w-[1440px] mx-auto px-gutter-mobile lg:px-margin">
+<div class="flex flex-col gap-4 max-w-2xl mb-16">
+<div class="flex items-center gap-3">
+<span class="w-8 h-[2px] bg-primary"></span>
+<span class="font-label-caps text-label-caps text-primary uppercase tracking-widest">MY PROCESS</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg uppercase tracking-tight text-on-surface">
+          FROM RAW FOOTAGE TO FINAL VIDEO.
+        </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+          A straightforward 5-step workflow designed to save your time and eliminate confusion.
+        </p>
+</div>
+<!-- Timeline Process Grid -->
+<div class="grid grid-cols-1 md:grid-cols-5 gap-4">
+<!-- Step 1 -->
+<div class="process-step group p-6 rounded-xl bg-surface-container hover:bg-surface-container-high transition-colors flex flex-col gap-4">
+<span class="font-label-mono text-label-mono text-primary font-bold">01 / STAGE</span>
+<div class="w-10 h-10 rounded-full bg-primary/10 text-primary flex items-center justify-center font-bold">
+            1
+          </div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">SHARE</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Send me your raw footage, project requirements, references and vision via Google Drive or WeTransfer.
+          </p>
+</div>
+<!-- Step 2 -->
+<div class="process-step group p-6 rounded-xl bg-surface-container hover:bg-surface-container-high transition-colors flex flex-col gap-4">
+<span class="font-label-mono text-label-mono text-tertiary font-bold">02 / STAGE</span>
+<div class="w-10 h-10 rounded-full bg-tertiary/10 text-tertiary flex items-center justify-center font-bold">
+            2
+          </div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">UNDERSTAND</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            I understand what the video is for, who it's meant for and the aesthetic style you want to achieve.
+          </p>
+</div>
+<!-- Step 3 -->
+<div class="process-step group p-6 rounded-xl bg-surface-container hover:bg-surface-container-high transition-colors flex flex-col gap-4">
+<span class="font-label-mono text-label-mono text-primary font-bold">03 / STAGE</span>
+<div class="w-10 h-10 rounded-full bg-primary/10 text-primary flex items-center justify-center font-bold">
+            3
+          </div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">EDIT</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            I organize the footage, assemble the cut, set the rhythm, clean audio, and color grade around your purpose.
+          </p>
+</div>
+<!-- Step 4 -->
+<div class="process-step group p-6 rounded-xl bg-surface-container hover:bg-surface-container-high transition-colors flex flex-col gap-4">
+<span class="font-label-mono text-label-mono text-secondary font-bold">04 / STAGE</span>
+<div class="w-10 h-10 rounded-full bg-secondary/10 text-secondary flex items-center justify-center font-bold">
+            4
+          </div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">REFINE</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            You review the first version and share your feedback. I make the necessary changes promptly.
+          </p>
+</div>
+<!-- Step 5 -->
+<div class="process-step group p-6 rounded-xl bg-surface-container hover:bg-surface-container-high transition-colors flex flex-col gap-4">
+<span class="font-label-mono text-label-mono text-primary-fixed-dim font-bold">05 / STAGE</span>
+<div class="w-10 h-10 rounded-full bg-primary-container text-on-primary flex items-center justify-center font-bold">
+            5
+          </div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">DELIVER</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Once everything looks right, you receive the full-resolution master video file, ready to publish.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================================================= -->
+<!-- 10. PRICING SECTION                                                      -->
+<!-- ========================================================================= -->
+<section class="w-full bg-surface-container-low py-24 lg:py-32" id="pricing">
+<div class="max-w-[1440px] mx-auto px-gutter-mobile lg:px-margin">
+<div class="flex flex-col gap-4 max-w-3xl mb-16">
+<div class="flex items-center gap-3">
+<span class="w-8 h-[2px] bg-primary"></span>
+<span class="font-label-caps text-label-caps text-primary uppercase tracking-widest">SIMPLE PRICING</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg uppercase tracking-tight text-on-surface">
+          Professional Editing. Simple Pricing.
+        </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+          Choose a package that fits your project — or get in touch for a custom quote.
+        </p>
+</div>
+<!-- Pricing Cards Tier -->
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch">
+<!-- Package 1: Starter -->
+<div class="flex flex-col justify-between p-8 rounded-xl bg-surface-container transition-all">
+<div class="flex flex-col gap-6">
+<div class="flex flex-col gap-1">
+<span class="font-label-mono text-label-mono text-on-surface-variant uppercase">ENTRY TIER</span>
+<h3 class="font-headline-md text-headline-md text-on-surface">STARTER</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Best for Reels, Shorts &amp; Personal Content</p>
+</div>
+<div class="flex items-baseline gap-2">
+<span class="font-headline-lg text-headline-lg text-on-surface font-bold">₹799</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">/ Video</span>
+</div>
+<ul class="flex flex-col gap-3 pt-4 font-body-sm text-body-sm text-on-surface-variant">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-base">check</span>
+<span>Basic cuts &amp; trimming</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-base">check</span>
+<span>Music synchronization</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-base">check</span>
+<span>Basic transitions</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-base">check</span>
+<span>Text overlays</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-base">check</span>
+<span>Basic color correction</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-base">check</span>
+<span>1 revision included</span>
+</li>
+</ul>
+</div>
+<div class="pt-8">
+<a class="flex items-center justify-center w-full py-3.5 rounded bg-surface-container-high hover:bg-surface-bright text-on-surface font-headline-sm text-label-caps uppercase tracking-wider transition-colors" href="#contact">
+              Get Started
+            </a>
+</div>
+</div>
+<!-- Package 2: Professional (Featured) -->
+<div class="relative flex flex-col justify-between p-8 rounded-xl bg-surface-container-high shadow-[0_0_50px_rgba(229,169,61,0.2)] transform lg:-translate-y-4">
+<!-- Recommended Badge -->
+<div class="absolute -top-4 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full bg-primary-container text-on-primary font-label-caps text-label-caps uppercase tracking-widest shadow-md">
+            RECOMMENDED
+          </div>
+<div class="flex flex-col gap-6">
+<div class="flex flex-col gap-1">
+<span class="font-label-mono text-label-mono text-primary uppercase">MOST POPULAR</span>
+<h3 class="font-headline-md text-headline-md text-on-surface">PROFESSIONAL</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Best for Reels, Promotional Videos &amp; YouTube Content</p>
+</div>
+<div class="flex items-baseline gap-2">
+<span class="font-headline-lg text-headline-lg text-primary font-bold">₹1,499</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">/ Video</span>
+</div>
+<ul class="flex flex-col gap-3 pt-4 font-body-sm text-body-sm text-on-surface">
+<li class="flex items-center gap-2 text-primary font-medium">
+<span class="material-symbols-outlined text-primary text-base">done_all</span>
+<span>Everything in Starter</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-base">check</span>
+<span>Advanced cuts &amp; pacing</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-base">check</span>
+<span>Color correction</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-base">check</span>
+<span>Sound enhancement</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-base">check</span>
+<span>Creative transitions</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-base">check</span>
+<span>Captions / subtitles</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-base">check</span>
+<span>Basic motion graphics</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-base">check</span>
+<span>2 revisions included</span>
+</li>
+</ul>
+</div>
+<div class="pt-8">
+<a class="flex items-center justify-center w-full py-4 rounded bg-primary-container hover:bg-primary text-on-primary font-headline-sm text-label-caps uppercase tracking-wider shadow-[0_0_24px_rgba(229,169,61,0.3)] transition-all" href="#contact">
+              Choose Professional
+            </a>
+</div>
+</div>
+<!-- Package 3: Premium -->
+<div class="flex flex-col justify-between p-8 rounded-xl bg-surface-container transition-all">
+<div class="flex flex-col gap-6">
+<div class="flex flex-col gap-1">
+<span class="font-label-mono text-label-mono text-tertiary uppercase">HIGH END</span>
+<h3 class="font-headline-md text-headline-md text-on-surface">PREMIUM</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Best for Ads, Brand Videos &amp; High-Quality Content</p>
+</div>
+<div class="flex items-baseline gap-2">
+<span class="font-headline-lg text-headline-lg text-on-surface font-bold">₹2,999</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">/ Video</span>
+</div>
+<ul class="flex flex-col gap-3 pt-4 font-body-sm text-body-sm text-on-surface-variant">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary text-base">check</span>
+<span>Advanced video editing</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary text-base">check</span>
+<span>Detailed color grading</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary text-base">check</span>
+<span>Advanced sound design</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary text-base">check</span>
+<span>Motion graphics</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary text-base">check</span>
+<span>Creative storytelling</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary text-base">check</span>
+<span>Custom visual elements</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary text-base">check</span>
+<span>Up to 3 revisions included</span>
+</li>
+</ul>
+</div>
+<div class="pt-8">
+<a class="flex items-center justify-center w-full py-3.5 rounded bg-surface-container-high hover:bg-surface-bright text-on-surface font-headline-sm text-label-caps uppercase tracking-wider transition-colors" href="#contact">
+              Start Your Project
+            </a>
+</div>
+</div>
+</div>
+<!-- Custom Quote Banner -->
+<div class="mt-12 p-8 rounded-xl bg-surface-container flex flex-col md:flex-row items-center justify-between gap-6">
+<div class="flex flex-col gap-1">
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Need something different or bulk batch editing?</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Tell me about your project scope and I'll build a tailored custom quote based on your requirements.
+          </p>
+</div>
+<a class="inline-flex items-center gap-2 px-6 py-3 rounded bg-surface-container-high hover:bg-surface-bright text-primary font-headline-sm text-label-caps uppercase tracking-wider whitespace-nowrap transition-colors" href="#contact">
+<span>Get a Custom Quote</span>
+<span class="material-symbols-outlined text-base">arrow_forward</span>
+</a>
+</div>
+</div>
+</section>
+<!-- ========================================================================= -->
+<!-- 11. TESTIMONIALS                                                         -->
+<!-- ========================================================================= -->
+<section class="w-full bg-surface py-24 lg:py-32">
+<div class="max-w-[1440px] mx-auto px-gutter-mobile lg:px-margin">
+<div class="flex flex-col gap-4 max-w-2xl mb-16">
+<div class="flex items-center gap-3">
+<span class="w-8 h-[2px] bg-primary"></span>
+<span class="font-label-caps text-label-caps text-primary uppercase tracking-widest">CLIENT FEEDBACK</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg uppercase tracking-tight text-on-surface">
+          Good Work Speaks For Itself.
+        </h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Feedback 1 -->
+<div class="p-8 rounded-xl bg-surface-container flex flex-col justify-between gap-6">
+<div class="flex flex-col gap-4">
+<div class="flex items-center gap-1 text-primary">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-lg text-body-lg text-on-surface italic">
+              "Great communication, clean editing and exactly what I was looking for."
+            </p>
+</div>
+<div class="flex items-center gap-3 pt-4 border-t border-surface-variant/40">
+<div class="w-10 h-10 rounded-full bg-primary/20 text-primary flex items-center justify-center font-bold">
+              RK
+            </div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface">Rahul K.</span>
+<span class="font-label-mono text-label-mono text-on-surface-variant">Content Creator</span>
+</div>
+</div>
+</div>
+<!-- Feedback 2 -->
+<div class="p-8 rounded-xl bg-surface-container flex flex-col justify-between gap-6">
+<div class="flex flex-col gap-4">
+<div class="flex items-center gap-1 text-primary">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-lg text-body-lg text-on-surface italic">
+              "The final video looked much more professional than the original footage. Would definitely work again."
+            </p>
+</div>
+<div class="flex items-center gap-3 pt-4 border-t border-surface-variant/40">
+<div class="w-10 h-10 rounded-full bg-tertiary/20 text-tertiary flex items-center justify-center font-bold">
+              MS
+            </div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface">Maya S.</span>
+<span class="font-label-mono text-label-mono text-on-surface-variant">Brand Founder</span>
+</div>
+</div>
+</div>
+<!-- Feedback 3 -->
+<div class="p-8 rounded-xl bg-surface-container flex flex-col justify-between gap-6">
+<div class="flex flex-col gap-4">
+<div class="flex items-center gap-1 text-primary">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-lg text-body-lg text-on-surface italic">
+              "Good quality editing at a reasonable price. The whole process was easy."
+            </p>
+</div>
+<div class="flex items-center gap-3 pt-4 border-t border-surface-variant/40">
+<div class="w-10 h-10 rounded-full bg-secondary/20 text-secondary flex items-center justify-center font-bold">
+              DP
+            </div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface">Daniel P.</span>
+<span class="font-label-mono text-label-mono text-on-surface-variant">Tech Reviewer</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================================================= -->
+<!-- 12. FAQ ACCORDION                                                        -->
+<!-- ========================================================================= -->
+<section class="w-full bg-surface-container-low py-24 lg:py-32">
+<div class="max-w-4xl mx-auto px-gutter-mobile lg:px-margin">
+<div class="flex flex-col items-center text-center gap-3 mb-16">
+<span class="font-label-caps text-label-caps text-primary uppercase tracking-widest">FREQUENTLY ASKED</span>
+<h2 class="font-headline-lg text-headline-lg uppercase text-on-surface">Got Questions?</h2>
+</div>
+<div class="flex flex-col gap-3" id="faq-container">
+<!-- FAQ 1 -->
+<div class="faq-item rounded-lg bg-surface-container overflow-hidden">
+<button class="faq-toggle w-full px-6 py-5 flex items-center justify-between text-left">
+<span class="font-headline-sm text-headline-sm text-on-surface">What type of videos do you edit?</span>
+<span class="material-symbols-outlined text-primary faq-icon transition-transform">expand_more</span>
+</button>
+<div class="faq-content hidden px-6 pb-5 text-on-surface-variant font-body-md text-body-md">
+            I edit Instagram Reels, YouTube Shorts, full YouTube videos, brand promo clips, product showcases, event recaps, podcast highlights, and custom creative video edits.
+          </div>
+</div>
+<!-- FAQ 2 -->
+<div class="faq-item rounded-lg bg-surface-container overflow-hidden">
+<button class="faq-toggle w-full px-6 py-5 flex items-center justify-between text-left">
+<span class="font-headline-sm text-headline-sm text-on-surface">How do I send my footage?</span>
+<span class="material-symbols-outlined text-primary faq-icon transition-transform">expand_more</span>
+</button>
+<div class="faq-content hidden px-6 pb-5 text-on-surface-variant font-body-md text-body-md">
+            You can easily upload and share your files through a shared Google Drive folder, WeTransfer link, Dropbox, or OneDrive. Just paste the link in our contact form or message.
+          </div>
+</div>
+<!-- FAQ 3 -->
+<div class="faq-item rounded-lg bg-surface-container overflow-hidden">
+<button class="faq-toggle w-full px-6 py-5 flex items-center justify-between text-left">
+<span class="font-headline-sm text-headline-sm text-on-surface">How long does an edit take?</span>
+<span class="material-symbols-outlined text-primary faq-icon transition-transform">expand_more</span>
+</button>
+<div class="faq-content hidden px-6 pb-5 text-on-surface-variant font-body-md text-body-md">
+            Short-form reels and shorts are typically delivered within 24 to 48 hours. Longer YouTube edits or brand commercials usually take 3 to 5 days, depending on footage length and complexity.
+          </div>
+</div>
+<!-- FAQ 4 -->
+<div class="faq-item rounded-lg bg-surface-container overflow-hidden">
+<button class="faq-toggle w-full px-6 py-5 flex items-center justify-between text-left">
+<span class="font-headline-sm text-headline-sm text-on-surface">Can I request changes?</span>
+<span class="material-symbols-outlined text-primary faq-icon transition-transform">expand_more</span>
+</button>
+<div class="faq-content hidden px-6 pb-5 text-on-surface-variant font-body-md text-body-md">
+            Yes! Every package comes with included revision rounds (1 to 3 depending on your package). You can share specific timecoded feedback, and I will adjust the cut until you're completely satisfied.
+          </div>
+</div>
+<!-- FAQ 5 -->
+<div class="faq-item rounded-lg bg-surface-container overflow-hidden">
+<button class="faq-toggle w-full px-6 py-5 flex items-center justify-between text-left">
+<span class="font-headline-sm text-headline-sm text-on-surface">Do you provide subtitles?</span>
+<span class="material-symbols-outlined text-primary faq-icon transition-transform">expand_more</span>
+</button>
+<div class="faq-content hidden px-6 pb-5 text-on-surface-variant font-body-md text-body-md">
+            Yes! I can provide dynamic, eye-catching kinetic subtitles with custom brand fonts, animations, emojis, and highlighting, perfect for short-form retention.
+          </div>
+</div>
+<!-- FAQ 6 -->
+<div class="faq-item rounded-lg bg-surface-container overflow-hidden">
+<button class="faq-toggle w-full px-6 py-5 flex items-center justify-between text-left">
+<span class="font-headline-sm text-headline-sm text-on-surface">Can you edit videos for Instagram and YouTube?</span>
+<span class="material-symbols-outlined text-primary faq-icon transition-transform">expand_more</span>
+</button>
+<div class="faq-content hidden px-6 pb-5 text-on-surface-variant font-body-md text-body-md">
+            Absolutely. I export in native aspect ratios optimized for both platforms (9:16 vertical for Reels/Shorts and 16:9 widescreen for standard YouTube).
+          </div>
+</div>
+<!-- FAQ 7 -->
+<div class="faq-item rounded-lg bg-surface-container overflow-hidden">
+<button class="faq-toggle w-full px-6 py-5 flex items-center justify-between text-left">
+<span class="font-headline-sm text-headline-sm text-on-surface">Do you accept custom projects?</span>
+<span class="material-symbols-outlined text-primary faq-icon transition-transform">expand_more</span>
+</button>
+<div class="faq-content hidden px-6 pb-5 text-on-surface-variant font-body-md text-body-md">
+            Yes, whether it's a documentary, series edit, recurring monthly batch, or unusual aspect ratio requirement, reach out via the contact form and we can discuss custom pricing.
+          </div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================================================= -->
+<!-- 13. FINAL CTA BANNER                                                     -->
+<!-- ========================================================================= -->
+<section class="w-full bg-surface py-20 lg:py-28 relative overflow-hidden">
+<div class="max-w-[1440px] mx-auto px-gutter-mobile lg:px-margin">
+<div class="relative rounded-2xl overflow-hidden bg-surface-container-high p-8 sm:p-12 lg:p-20 shadow-[0_20px_50px_rgba(0,0,0,0.6)]">
+<div class="absolute -right-20 -bottom-20 w-80 h-80 rounded-full bg-primary/10 blur-3xl pointer-events-none"></div>
+<div class="relative z-10 flex flex-col items-center text-center max-w-4xl mx-auto gap-6">
+<span class="font-label-caps text-label-caps text-primary uppercase tracking-widest">READY TO CREATE?</span>
+<h2 class="font-headline-lg text-headline-lg lg:text-display-xl uppercase tracking-tighter text-on-surface">
+            GOT FOOTAGE? LET'S TURN IT INTO SOMETHING WORTH WATCHING.
+          </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
+            You already have the idea. You already have the footage. Now you just need the right edit. Let's create something professional, engaging and made for your audience — without making the budget complicated.
+          </p>
+<div class="flex flex-wrap items-center justify-center gap-4 pt-4">
+<a class="inline-flex items-center gap-2 px-8 py-4 rounded font-headline-sm text-headline-sm uppercase tracking-wider bg-primary-container text-on-primary hover:bg-primary shadow-[0_0_24px_rgba(229,169,61,0.35)] transition-all" href="#contact">
+<span>Start a Project</span>
+<span class="material-symbols-outlined text-xl">arrow_forward</span>
+</a>
+<a class="inline-flex items-center gap-2 px-8 py-4 rounded font-headline-sm text-headline-sm uppercase tracking-wider bg-surface-container text-on-surface hover:bg-surface-bright transition-colors" href="#work">
+<span>View My Work</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================================================= -->
+<!-- 14. CONTACT SECTION                                                      -->
+<!-- ========================================================================= -->
+<section class="w-full bg-surface-container-lowest py-24 lg:py-32" id="contact">
+<div class="max-w-[1440px] mx-auto px-gutter-mobile lg:px-margin">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-16">
+<!-- Left Side: Subtext & Direct Contact Links -->
+<div class="lg:col-span-5 flex flex-col gap-8">
+<div class="flex flex-col gap-4">
+<div class="flex items-center gap-3">
+<span class="w-8 h-[2px] bg-primary"></span>
+<span class="font-label-caps text-label-caps text-primary uppercase tracking-widest">LET'S WORK TOGETHER</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg uppercase tracking-tight text-on-surface">
+              Have a Video That Needs Editing?
+            </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+              Send me your project details, tell me what you're looking for, and I'll get back to you promptly.
+            </p>
+</div>
+<!-- Contact Quick Cards -->
+<div class="flex flex-col gap-3 pt-2">
+<a class="p-4 rounded-lg bg-surface-container flex items-center justify-between hover:bg-surface-container-high transition-colors group" href="https://wa.me/919876543210" rel="noopener" target="_blank">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary">chat</span>
+<div class="flex flex-col">
+<span class="font-label-mono text-label-mono text-on-surface-variant uppercase">WhatsApp</span>
+<span class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">+91 98765 43210</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-primary transition-colors">arrow_outward</span>
+</a>
+<a class="p-4 rounded-lg bg-surface-container flex items-center justify-between hover:bg-surface-container-high transition-colors group" href="https://instagram.com" rel="noopener" target="_blank">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-tertiary">photo_camera</span>
+<div class="flex flex-col">
+<span class="font-label-mono text-label-mono text-on-surface-variant uppercase">Instagram</span>
+<span class="font-headline-sm text-headline-sm text-on-surface group-hover:text-tertiary transition-colors">@sivarethinam.edits</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-tertiary transition-colors">arrow_outward</span>
+</a>
+<a class="p-4 rounded-lg bg-surface-container flex items-center justify-between hover:bg-surface-container-high transition-colors group" href="mailto:contact@sivarethinam.com">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary">mail</span>
+<div class="flex flex-col">
+<span class="font-label-mono text-label-mono text-on-surface-variant uppercase">Email</span>
+<span class="font-headline-sm text-headline-sm text-on-surface group-hover:text-secondary transition-colors">contact@sivarethinam.com</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-secondary transition-colors">arrow_outward</span>
+</a>
+</div>
+</div>
+<!-- Right Side: Contact Form -->
+<div class="lg:col-span-7">
+<div class="p-8 sm:p-10 rounded-xl bg-surface-container">
+<h3 class="font-headline-md text-headline-md text-on-surface mb-6">Send Project Enquiry</h3>
+<form class="flex flex-col gap-6" id="project-enquiry-form">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+<!-- Name -->
+<div class="flex flex-col gap-2">
+<label class="font-label-caps text-label-caps text-on-surface uppercase" for="contact-name">Your Name *</label>
+<input class="w-full px-4 py-3 rounded bg-surface-container-lowest text-on-surface placeholder:text-outline focus:outline-none focus:ring-2 focus:ring-primary" id="contact-name" placeholder="e.g. Rahul Sharma" required="" type="text"/>
+</div>
+<!-- Email -->
+<div class="flex flex-col gap-2">
+<label class="font-label-caps text-label-caps text-on-surface uppercase" for="contact-email">Email Address *</label>
+<input class="w-full px-4 py-3 rounded bg-surface-container-lowest text-on-surface placeholder:text-outline focus:outline-none focus:ring-2 focus:ring-primary" id="contact-email" placeholder="name@domain.com" required="" type="email"/>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+<!-- Phone / WhatsApp -->
+<div class="flex flex-col gap-2">
+<label class="font-label-caps text-label-caps text-on-surface uppercase" for="contact-phone">WhatsApp / Phone</label>
+<input class="w-full px-4 py-3 rounded bg-surface-container-lowest text-on-surface placeholder:text-outline focus:outline-none focus:ring-2 focus:ring-primary" id="contact-phone" placeholder="+91 98765 00000" type="tel"/>
+</div>
+<!-- Project Type -->
+<div class="flex flex-col gap-2">
+<label class="font-label-caps text-label-caps text-on-surface uppercase" for="contact-type">Project Type</label>
+<select class="w-full px-4 py-3 rounded bg-surface-container-lowest text-on-surface focus:outline-none focus:ring-2 focus:ring-primary" id="contact-type">
+<option value="reels">Social Media Reels / Shorts</option>
+<option value="youtube">YouTube Long-Form Video</option>
+<option value="promo">Brand / Promotional Video</option>
+<option value="custom">Custom Editing Project</option>
+</select>
+</div>
+</div>
+<!-- Project Details -->
+<div class="flex flex-col gap-2">
+<label class="font-label-caps text-label-caps text-on-surface uppercase" for="contact-details">Project Details &amp; Footage Link *</label>
+<textarea class="w-full px-4 py-3 rounded bg-surface-container-lowest text-on-surface placeholder:text-outline focus:outline-none focus:ring-2 focus:ring-primary" id="contact-details" placeholder="Tell me about your video idea, duration, references, and paste any Drive/WeTransfer links..." required="" rows="4"></textarea>
+</div>
+<!-- Submit Button -->
+<button class="w-full py-4 rounded bg-primary-container text-on-primary hover:bg-primary font-headline-sm text-headline-sm uppercase tracking-wider transition-all duration-300 shadow-[0_0_24px_rgba(229,169,61,0.25)]" type="submit">
+                Send Project Enquiry
+              </button>
+<div class="hidden p-4 rounded bg-surface-container-high text-primary font-body-sm text-body-sm text-center" id="form-feedback">
+                Thank you! Your enquiry has been received. Sivarethinam will reach out within 24 hours.
+              </div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================================================= -->
+<!-- INLINE CLIENT SCRIPT FOR INTERACTION                                     -->
+<!-- ========================================================================= -->
+<script>
+    // 1. Portfolio Category Filtering
+    const filterButtons = document.querySelectorAll('.portfolio-filter-btn');
+    const portfolioCards = document.querySelectorAll('.portfolio-card');
+
+    filterButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const filter = button.getAttribute('data-filter');
+
+        // Toggle active button styling
+        filterButtons.forEach(btn => {
+          btn.classList.remove('bg-primary', 'text-on-primary', 'font-bold');
+          btn.classList.add('text-on-surface-variant');
+        });
+        button.classList.add('bg-primary', 'text-on-primary', 'font-bold');
+        button.classList.remove('text-on-surface-variant');
+
+        // Filter cards
+        portfolioCards.forEach(card => {
+          const category = card.getAttribute('data-category');
+          if (filter === 'all' || category === filter) {
+            card.classList.remove('hidden');
+          } else {
+            card.classList.add('hidden');
+          }
+        });
+      });
+    });
+
+    // 2. FAQ Accordion Toggle
+    const faqItems = document.querySelectorAll('.faq-item');
+    faqItems.forEach(item => {
+      const toggle = item.querySelector('.faq-toggle');
+      const content = item.querySelector('.faq-content');
+      const icon = item.querySelector('.faq-icon');
+
+      toggle.addEventListener('click', () => {
+        const isHidden = content.classList.contains('hidden');
+        
+        // Close all other items
+        faqItems.forEach(otherItem => {
+          otherItem.querySelector('.faq-content').classList.add('hidden');
+          otherItem.querySelector('.faq-icon').classList.remove('rotate-180');
+        });
+
+        // Toggle current item
+        if (isHidden) {
+          content.classList.remove('hidden');
+          icon.classList.add('rotate-180');
+        }
+      });
+    });
+
+    // 3. Contact Form Submission - Google Sheets / Apps Script
+    const contactForm = document.getElementById('project-enquiry-form');
+    const formFeedback = document.getElementById('form-feedback');
+    const googleSheetWebAppUrl = 'https://script.google.com/macros/s/AKfycbxzqE_PAhkqplLnczP9xwiBO46WTVadI5Mefx1GA9LXUx9nrxjrG9imdsvy_B-cmnw/exec';
+
+    if (contactForm && formFeedback) {
+      contactForm.addEventListener('submit', async (e) => {
+        e.preventDefault();
+
+        const submitButton = contactForm.querySelector('button[type="submit"]');
+        const originalText = submitButton ? submitButton.textContent : 'Send Project Enquiry';
+
+        if (submitButton) {
+          submitButton.disabled = true;
+          submitButton.textContent = 'SENDING...';
+        }
+
+        const data = new URLSearchParams();
+        data.append('name', document.getElementById('contact-name').value.trim());
+        data.append('email', document.getElementById('contact-email').value.trim());
+        data.append('phone', document.getElementById('contact-phone').value.trim());
+        data.append('projectType', document.getElementById('contact-type').value);
+        data.append('details', document.getElementById('contact-details').value.trim());
+
+        try {
+          await fetch(googleSheetWebAppUrl, {
+            method: 'POST',
+            body: data,
+            mode: 'no-cors'
+          });
+
+          formFeedback.textContent = 'Thank you! Your enquiry has been received. Sivarethinam will reach out within 24 hours.';
+          formFeedback.classList.remove('hidden');
+          contactForm.reset();
+
+          setTimeout(() => {
+            formFeedback.classList.add('hidden');
+          }, 6000);
+        } catch (error) {
+          console.error('Google Sheets submission error:', error);
+          formFeedback.textContent = 'Something went wrong. Please try again.';
+          formFeedback.classList.remove('hidden');
+        } finally {
+          if (submitButton) {
+            submitButton.disabled = false;
+            submitButton.textContent = originalText;
+          }
+        }
+      });
+    }
+
+    // 4. Smooth Anchor Navigation Scrolling
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        const targetId = this.getAttribute('href');
+        if (targetId && targetId !== '#') {
+          const target = document.querySelector(targetId);
+          if (target) {
+            e.preventDefault();
+            target.scrollIntoView({
+              behavior: 'smooth'
+            });
+          }
+        }
+      });
+    });
+  </script>
+</div></main><footer class="w-full bg-surface-container-lowest text-on-surface pt-space-xl pb-space-lg"><div class="max-w-[1440px] mx-auto px-gutter-mobile lg:px-margin flex flex-col gap-space-xl"><div class="grid grid-cols-1 md:grid-cols-12 gap-space-lg"><div class="md:col-span-5 flex flex-col gap-space-sm"><div class="flex items-center gap-space-xs"><span class="font-headline-sm text-headline-sm tracking-tight text-on-surface uppercase">Sivarethinam P.</span><span class="text-primary text-headline-sm font-headline-sm">•</span><span class="font-label-caps text-label-caps text-primary tracking-widest uppercase">Video Editor</span></div><p class="font-body-md text-body-md text-on-surface-variant max-w-md">Professional video editing for creators, businesses, brands and individuals.</p></div><div class="md:col-span-4 flex flex-col gap-space-sm"><span class="font-label-caps text-label-caps text-primary uppercase tracking-widest">Navigation</span><div class="grid grid-cols-2 gap-space-xs"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors py-space-xs" href="#hero">Home</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors py-space-xs" href="#about">About</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors py-space-xs" href="#services">Services</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors py-space-xs" href="#work">Work</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors py-space-xs" href="#pricing">Pricing</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors py-space-xs" href="#contact">Contact</a></div></div><div class="md:col-span-3 flex flex-col gap-space-sm"><span class="font-label-caps text-label-caps text-primary uppercase tracking-widest">Connect</span><div class="flex flex-col gap-space-xs"><a class="flex items-center gap-space-xs font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors py-space-xs" href="#"><span class="material-symbols-outlined text-label-mono">photo_camera</span><span>Instagram</span></a><a class="flex items-center gap-space-xs font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors py-space-xs" href="#"><span class="material-symbols-outlined text-label-mono">chat</span><span>WhatsApp</span></a><a class="flex items-center gap-space-xs font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors py-space-xs" href="#"><span class="material-symbols-outlined text-label-mono">mail</span><span>Email</span></a></div></div></div><div class="flex flex-col sm:flex-row items-center justify-between gap-space-sm pt-space-md text-on-surface-variant"><p class="font-label-mono text-label-mono text-on-surface-variant">© 2026 Sivarethinam P. All rights reserved.</p><div class="flex items-center gap-space-sm"><span class="inline-block w-2 h-2 rounded-full bg-primary animate-pulse"></span><span class="font-label-mono text-label-mono text-on-surface-variant uppercase tracking-wider">Available for Commissions</span></div></div></div></footer><script>const toggleBtn=document.getElementById('mobile-menu-toggle');const mobileNav=document.getElementById('mobile-nav-panel');if(toggleBtn&&mobileNav){toggleBtn.addEventListener('click',()=>{mobileNav.classList.toggle('hidden');});}</script></body></html>
